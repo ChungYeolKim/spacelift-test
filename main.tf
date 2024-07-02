@@ -3,7 +3,7 @@ provider "github" {
 }
 
 resource "github_repository" "my_repo" {
-  name        = "spacelift-test"
+  name        = "tf_sp_example"
   description = "Spacelift configuration examples"
 
   visibility = "public"
