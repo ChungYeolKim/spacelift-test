@@ -1,9 +1,9 @@
 provider "github" {
-  owner = "kimcy12"
+  owner = "ChungYeolKim"
 }
 
 resource "github_repository" "my_repo" {
-  name        = "tf_sp_example"
+  name        = "spacelift-test"
   description = "Spacelift configuration examples"
 
   visibility = "public"
